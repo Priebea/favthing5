@@ -14,6 +14,12 @@ $(document).ready(function() {
 
     $("#list").show();
 
+
+      $(".clickable").click(function() {
+        $("#grumpy-showing").toggle();
+        $("#grumpy-hidden").toggle();
+      });
+
     event.preventDefault();
   });
 });
