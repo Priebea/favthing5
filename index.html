@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A List of Your Five Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <img style="margin:0px auto;display:block" src="img/juliea.jpeg"alt="A picture of Julie Andrews"/>
+      <audio src="audio/07 - My Favorite Things.mp3" controls></audio>
+      <h3>Fill in the blanks make a list of your five favorite things:</h3>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="favorite1">Your first favorite thing?</label>
+            <input id="favorite1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favorite2">Next?</label>
+            <input id="favorite2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favorite3">What about #3?</label>
+            <input id="favorite3" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favorite4">Almost done:</label>
+            <input id="favorite4" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favorite5">Last one!</label>
+            <input id="favorite5" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my list!</button>
+        </form>
+      </div>
+
+      <div id="list">
+      <ul>
+        <li><span class="favorite1"></span></li>
+        <li><span class="favorite2"></span></li>
+        <li><span class="favorite3"></span></li>
+        <li><span class="favorite4"></span></li>
+        <li><span class="favorite5"></span></li>
+      </ul>
+      </div>
+
+
+              <h3>You made a great list!</h3>
+
+       <p>To learn more about programming classes at Epicodus, follow this link:  <a href="http://www.epicodus.com">I link to www.epicodus.com.</a></p>
+            </div>
+        </body>
+      </html>

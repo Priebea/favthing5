@@ -1,0 +1,27 @@
+#list {
+  display: none;
+}
+
+margin: 0px auto;display:block
+
+#grumpy-showing {
+  display: none;
+}
+
+h3 {
+  font-family: fantasy;
+  color: blue
+}
+h4 {
+  font-family: fantasy;
+  color: red
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
