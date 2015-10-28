@@ -4,6 +4,10 @@
 
 margin: 0px auto;display:block
 
+body {
+    background: url(/img/cream_dust.png) repeat 0 0;
+}
+
 #grumpy-showing {
   display: none;
 }
